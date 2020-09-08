@@ -1,8 +1,3 @@
-
-
-
-
-
 ## Resume
 
 ### Full name: 
@@ -29,7 +24,3 @@ I am self-educated, and i think this is reason that i have some spaces in my kno
 
 ### English:
 A2
-
-
-
-
