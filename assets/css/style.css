@@ -1,0 +1,107 @@
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(57 134 123) 25%);
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__header {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 3px #000;
+}
+
+.main__header-text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content__wrapper {
+    text-align: center;
+    padding: 0 5px 35px 5px;
+    font-size: 14px;
+}
+
+.content__block {
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+    color: #fff;
+}
+
+.content__personal-info {
+    margin-bottom: 25px;
+}
+
+.content__header {
+    text-align: center;
+}
+
+.content__header-main {
+    font-size: 175%;
+    line-height: 225%;
+}
+
+.content__personal-info-line {
+    padding: 7px 0;
+    text-align: center;
+}
+
+.content__line-header {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.content__line-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+}
+
+.content__line-list-item {
+    margin: 0 15px;
+}
+
+.content__line-paragraph {
+    padding: 0 35px;
+    text-align: center;
+}
+
+.content__lite-separator {
+    display: inline-block;
+    height: 3px;
+    background-color: #0000004f;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.content__link {
+    color: #fff !important;
+}
+
+.content__link:hover {
+    font-weight: 700;
+}
+
+.content__other-info-line {
+    margin: 20px 0;
+}
+
+.content__profile-image {
+    width: 175px;
+    border-radius: 50%;
+}
