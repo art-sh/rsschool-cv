@@ -1,14 +1,20 @@
-html,
-body {
+.main__body {
     font-family: 'Nunito', sans-serif;
-    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(57 134 123) 25%);
+    margin: 0;
+    padding: 0;
     min-height: 100vh;
+    color: #fff;
+    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(57 134 123) 25%);
 }
 
-* {
+.main__body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.main__body a {
+    color: #fff;
 }
 
 .main__header {
